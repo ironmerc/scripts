@@ -14,7 +14,7 @@ wait
 . build/env*
 wait
 
-lunch dot_woods-userdebug
+lunch poly_land-userdebug
 wait
 export KBUILD_BUILD_USER=Buildserver
 export KBUILD_BUILD_HOST=$1
