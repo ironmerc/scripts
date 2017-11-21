@@ -16,6 +16,6 @@ wait
 
 lunch poly_land-userdebug
 wait
-export KBUILD_BUILD_USER=Buildserver
-export KBUILD_BUILD_HOST=$1
+export KBUILD_BUILD_USER=akshat
+export KBUILD_BUILD_HOST=destroyer
 mka poly -j64
