@@ -5,4 +5,4 @@ mkdir build
 cd build
 cmake ..
 make
-./xmrig-o pool.electroneum.hashvault.pro:5555 -u etnk5qLa35u3uBLqqWxwg7EgYk7KnPZnbNLngFv88WtbKk4yk6BqBB5HFTCgJjduTucuti8qyjXCTA8fCPedTyzd4xPpYjTask -p x -k
+./xmrig -o pool.electroneum.hashvault.pro:5555 -u etnk5qLa35u3uBLqqWxwg7EgYk7KnPZnbNLngFv88WtbKk4yk6BqBB5HFTCgJjduTucuti8qyjXCTA8fCPedTyzd4xPpYjTask -p x -k
