@@ -4,5 +4,9 @@ cd xmrig
 mkdir build
 cd build
 cmake ..
-make
-./xmrig -o pool.electroneum.hashvault.pro:5555 -u etnk5qLa35u3uBLqqWxwg7EgYk7KnPZnbNLngFv88WtbKk4yk6BqBB5HFTCgJjduTucuti8qyjXCTA8fCPedTyzd4xPpYjTask -p x -k
+make 
+sudo sysctl -w vm.nr_hugepages=128
+./xmrig -o pool.electroneum.space -u etnk5qLa35u3uBLqqWxwg7EgYk7KnPZnbNLngFv88WtbKk4yk6BqBB5HFTCgJjduTucuti8qyjXCTA8fCPedTyzd4xPpYjTask -p  x -k  --max-cpu-usage=100 --cpu-priority 5 --av=1
+
+
+
