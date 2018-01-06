@@ -10,7 +10,7 @@ rm -rf packages/apps/PhoneCommon
 git clone https://github.com/Cosmic-OS/platform_packages_apps_PhoneCommon -b oreo-mr1-ims packages/apps/PhoneCommon
 rm -rf v*/code*
 git clone https://github.com/Cosmic-OS/platform_vendor_codeaurora_telephony.git -b oreo-mr1-ims vendor/codeaurora/telephony
-cd framework
-rm -rf base 
-git clone https://github.com/Cosmic-OS/platform_frameworks_base -b oreo-mr1-ims base
-cd ..
+rm -rf frameworks/base
+git clone https://github.com/Cosmic-OS/platform_frameworks_base -b oreo-mr1-ims frameworks/base
+
+
