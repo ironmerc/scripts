@@ -5,4 +5,4 @@ git clone https://github.com/TeamReloaded/proprietary_vendor_xiaomi -b lineage-1
 git clone https://github.com/TeamReloaded/hardware_qcom_audio.git -b oreo-mr1-8937 hardware/qcom/audio-caf
 git clone https://github.com/TeamReloaded/hardware_qcom_display -b oreo-mr1-8937 hardware/qcom/display-caf
 git clone https://github.com/TeamReloaded/hardware_qcom_media.git -b oreo-mr1-8937 hardware/qcom/media-caf
-git clone https://github.com/TeamReloaded/packages_apps_Snap -b lineage-15.1 p*/a*/Snap
+git clone https://github.com/TeamReloaded/packages_apps_Snap -b lineage-15.1 packages/apps/Snap
