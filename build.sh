@@ -14,8 +14,8 @@ wait
 . build/env*
 wait
 
-lunch poly_land-userdebug
+lunch fh_land-userdebug
 wait
 export KBUILD_BUILD_USER=akshat
-export KBUILD_BUILD_HOST=destroyer
+export KBUILD_BUILD_HOST=TheRagingBeast
 mka poly -j64
