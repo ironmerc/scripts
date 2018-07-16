@@ -14,7 +14,7 @@ wait
 . build/env*
 wait
 
-lunch fh_land-userdebug
+lunch fh_X00TD-userdebug
 wait
 export KBUILD_BUILD_USER=akshat
 export KBUILD_BUILD_HOST=TheRagingBeast
