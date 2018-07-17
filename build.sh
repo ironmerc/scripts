@@ -18,4 +18,4 @@ lunch fh_X00TD-userdebug
 wait
 export KBUILD_BUILD_USER=akshat
 export KBUILD_BUILD_HOST=TheRagingBeast
-mka poly -j64
+make bacon -j24
