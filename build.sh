@@ -4,4 +4,4 @@ ccache -M 50G
 lunch nitrogen_X00TD-userdebug
 export KBUILD_BUILD_USER=Akshat
 export KBUILD_BUILD_HOST=TheRagingBeast
-mka bacon 
+mka otapackage -j8
