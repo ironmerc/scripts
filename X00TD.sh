@@ -4,4 +4,4 @@ git clone https://github.com/ASUS-X00TD/proprietary_vendor_asus -b lineage-16.0 
 rm -rf h*/q*/media-caf h*/q*/display-caf h*/q*/audio-caf
 git clone https://github.com/PixelExperience-P/hardware_qcom_media -b pie-caf-8998 hardware/qcom/media-caf/msm8998
 git clone https://github.com/PixelExperience-P/hardware_qcom_audio -b pie-caf-8998 hardware/qcom/audio-caf/msm8998
-git clone https//github.com/PixelExperience-P/hardware_qcom_display -b pie-caf-8998 hardware/qcom/display-caf/msm8998
+git clone https://github.com/PixelExperience-P/hardware_qcom_display -b pie-caf-8998 hardware/qcom/display-caf/msm8998
