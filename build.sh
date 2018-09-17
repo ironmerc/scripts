@@ -1,8 +1,7 @@
-echo "export USE_CCACHE=1" » ~/.bashrc
+export USE_CCACHE=1
 ccache -M 50G
 . build/env*
-lunch fh_X00TD-userdebug
-wait
+lunch nitrogen_X00TD-userdebug
 export KBUILD_BUILD_USER=Akshat
 export KBUILD_BUILD_HOST=TheRagingBeast
-make bacon -j24
+mka bacon 
