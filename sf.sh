@@ -20,7 +20,7 @@ HOST=frs.sourceforge.net
 
 cd $OUT
 sftp $USER@$HOST <<EOF
-cd $DIR
+cd $DIRS
 put *$ROM*.zip
 EOF
 
