@@ -1,7 +1,7 @@
 export USE_CCACHE=1
 ccache -M 50G
 . build/env*
-lunch nitrogen_X00TD-userdebug
+lunch aosip_X00T-userdebug
 export KBUILD_BUILD_USER=Akshat
 export KBUILD_BUILD_HOST=TheRagingBeast
-mka otapackage -j8
+time mka kronic
