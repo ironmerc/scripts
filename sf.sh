@@ -13,15 +13,16 @@ printf "\n Enter Rom Name : "
 read ROM
 printf "\n Enter project name : "
 read PROJECT
+printf "\n Enter folder name : "
+read FOLDER
 
-DIRS=/home/frs/project/$PROJECT/$ROM
+DIRS=/home/frs/project/$PROJECT/$FOLDER
 OUT=out/target/product/$DEVICE
 HOST=frs.sourceforge.net
+DATE=$(date +'%d')
 
 cd $OUT
 sftp $USER@$HOST <<EOF
 cd $DIRS
-put *$ROM*.zip
+put *$ROM*DATE*.zip
 EOF
-
-haste() { a=$(cat); curl -X POST -s -d "$a" https://del.dog/documents | awk -F '"' '{print "https://del.dog/"$4}'; }
