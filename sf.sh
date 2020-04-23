@@ -26,3 +26,5 @@ sftp $USER@$HOST <<EOF
 cd $DIRS
 put *$ROM*DATE*.zip
 EOF
+
+cd ../../../..
