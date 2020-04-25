@@ -24,7 +24,7 @@ DATE=$(date +'%d')
 cd $OUT
 sftp $USER@$HOST <<EOF
 cd $DIRS
-put *$ROM*DATE*.zip
+put *$ROM*$DATE*.zip
 EOF
 
 cd ../../../..
