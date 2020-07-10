@@ -15,11 +15,19 @@ printf "\n Enter project name : "
 read PROJECT
 printf "\n Enter folder name : "
 read FOLDER
+printf "\n Need custom build date? : "
+read answer
+if [ $answer == y ]
+then 
+printf "\n Enter Date : "
+read DATE
+else 
+DATE=$(date +'%d')
+fi
 
 DIRS=/home/frs/project/$PROJECT/$FOLDER
 OUT=out/target/product/$DEVICE
 HOST=frs.sourceforge.net
-DATE=$(date +'%d')
 
 cd $OUT
 sftp $USER@$HOST <<EOF
