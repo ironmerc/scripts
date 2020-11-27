@@ -1,7 +1,7 @@
 git clone https://github.com/ironmerc/device_asus_X00T-priv -b derp device/asus/X00T
 git clone https://github.com/ironmerc/vendor_asus-priv vendor/asus 
 git clone https://gitlab.com/Pranavkapoor001/kernel_asus_sdm660 kernel/asus/sdm660
-git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-18.0-caf-msm8998 hardware/qcommedia
+git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-18.0-caf-msm8998 hardware/qcom/media
 git clone https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-18.0-caf-msm8998 hardware/qcom/audio
 git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-18.0-caf-msm8998 hardware/qcom/display
 rm -rf hardware/qcom/camera 
