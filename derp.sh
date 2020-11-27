@@ -12,4 +12,4 @@ cd ../../..
 cd v*/q*/o*/c*/display
 git fetch https://github.com/DerpGang/commonsys_display
 git cherry-pick 8b7a825f55bf629b76db730bf1a0508648f63b80
-cd ../../../..
+cd ../../../../..
